@@ -1,13 +1,20 @@
 {
-"reponame":"template-side-menu",
-"title":"Side Menu App",
-"tooltip":"Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
-"description":"Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
-"articleUrl":"http://software.intel.com/en-us/html5/articles/templates-to-get-started-with-html5-mobile-app-development",
-"visible" : "true",
-"sortWeight":"0.4",
-"keywords":[""],
-"highlights" : [""],
-"relationship":"side menu",
-"projectTypeName": "com.intel.xdk.projecttype.webapp"
+   "keywords" : [
+      ""
+   ],
+   "description" : "Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
+   "projectTypeName" : "com.intel.xdk.projecttype.webapp",
+   "appName" : null,
+   "appPreview" : null,
+   "articleUrl" : "http://software.intel.com/en-us/html5/articles/templates-to-get-started-with-html5-mobile-app-development",
+   "relationship" : "side menu",
+   "highlights" : [
+      ""
+   ],
+   "title" : "Side Menu App",
+   "relName" : null,
+   "repoName" : "template-side-menu",
+   "tooltip" : "Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
+   "visible" : "true",
+   "sortWeight" : "0.4"
 }
