@@ -6,7 +6,7 @@
    "visible" : true,
    "repoName" : "template-side-menu",
    "tooltip" : "Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
-   "projectTypeName" : "com.intel.xdk.projecttype.webapp",
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
    "description" : "Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
    "articleUrl" : "https://software.intel.com/en-us/xdk/docs/templates-to-get-started-with-xdk-app-development",
    "sortWeight" : "0.4",
