@@ -1,13 +1,21 @@
 {
-"reponame":"template-side-menu",
-"title":"Side Menu App",
-"tooltip":"Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
-"description":"Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
-"articleUrl":"https://software.intel.com/en-us/xdk/docs/templates-to-get-started-with-xdk-app-development",
-"visible" : "true",
-"sortWeight":"0.4",
-"keywords":[""],
-"highlights" : [""],
-"relationship":"side menu",
-"projectTypeName": "com.intel.xdk.projecttype.webapp"
+   "keywords" : [
+      ""
+   ],
+   "appName" : null,
+   "visible" : true,
+   "repoName" : "template-side-menu",
+   "tooltip" : "Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
+   "projectTypeName" : "com.intel.xdk.projecttype.webapp",
+   "description" : "Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
+   "articleUrl" : "https://software.intel.com/en-us/xdk/docs/templates-to-get-started-with-xdk-app-development",
+   "sortWeight" : "0.4",
+   "mobile" : false,
+   "highlights" : [
+      ""
+   ],
+   "relationship" : "side menu",
+   "relName" : null,
+   "appPreview" : false,
+   "title" : "Side Menu App"
 }
