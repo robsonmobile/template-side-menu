@@ -3,6 +3,8 @@
       ""
    ],
    "appName" : null,
+   "section" : "templates",
+   "group" : "other",
    "visible" : true,
    "repoName" : "template-side-menu",
    "tooltip" : "Use this template to provide a simple app with a side menu that slides open to switch views. For example, create a Youtube* app or Gmail* app.",
