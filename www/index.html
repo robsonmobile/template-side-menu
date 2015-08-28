@@ -10,18 +10,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" type="text/css" href="../www/appframework/build/icons.css" />
-    <link rel="stylesheet" type="text/css" href="../www/appframework/build/af.ui.css" />
 
+    <link rel="stylesheet" type="text/css" href="lib/appframework/icons.css" />
+    <link rel="stylesheet" type="text/css" href="lib/appframework/af.ui.css" />
 
-     <script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="../www/appframework/build/appframework.ui.js"></script>
-     <script>
-    $(document).ready(function(){
-        //$.afui.splitview.enable();
-    })
-    </script>
+    <script type="text/javascript" charset="utf-8" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/fastclick.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/appframework/appframework.ui.min.js"></script>
 
 </head>
 
@@ -32,49 +27,38 @@
         <br>
         <span class='ui-icon ui-icon-loading spin'></span>
         <h1>Starting app</h1>
-
     </div>
-    <div class="view splitview" id="mainview">
+
+    <div class="view splitview">
+        
         <header>
-            <h1>What</h1>
-            <a class="menuButton" data-left-menu="left" data-transition="cover"></a>
+            <a class="menuButton" data-left-menu="left" data-transition="cover" style="float:left"></a>
+            <h1>Title</h1>
         </header>
+        
         <div class="pages">
             <div class="panel" id="main" data-title="Main" data-selected="true">
-                Splitview Demo
-
-
+                This is main page
             </div>
-            <div data-left-drawer="left" class="panel" id="foobar" data-title="Foobar">
-                Foobar stuff goes here
+            <div class="panel" id="page2" data-title="Page 2">
+                This is Page 2
             </div>
-
         </div>
-        <footer>
-            <a href="#main" class="icon home">Main</a>
-            <a href="#foobar" class="icon trash">Foobar</a>
-        </footer>
 
         <nav id="left">
-            <div class="view active" id="navView1">
+            <div class="view active">
                 <header>
                     <h1>Left</h1>
                 </header>
                 <div class="pages">
                     <div class="panel active" id="navPage1" data-title="Foobar">
-                        Splitview page 1
-                        <a href="#navPage2">Page 2</a>
-                    </div>
-                    <div class="panel" id="navPage2" data-title="Foobar">
-                        Splitview Page 2
+                        <ul class="list">
+                            <li><a href="#main" onclick="$.afui.clearHistory()">Main Page</a></li>
+                            <li><a href="#page2" onclick="$.afui.clearHistory()">Page Two</a></li>
+                        </ul>
                     </div>
                 </div>
-                <footer>
-                    <a href="#navPage1" class="icon home">Page 1</a>
-                    <a href="#foobar" class="icon trash" data-menu-close>Main</a>
-                </footer>
             </div>
-
         </nav>
 
     </div>
